@@ -45,6 +45,8 @@ Users should be able to:
 
 ### What I learned
 
+Image hover Overlay effect.
+
 ### Useful resources
 
 - [MDN Documentation](https://developer.mozilla.com) - This helped me for any quick references.
@@ -54,5 +56,3 @@ Users should be able to:
 - Website - [Jeeva](https://digitallimat.com)
 - Frontend Mentor - [@digitallimat](https://www.frontendmentor.io/profile/digitallimat)
 - Twitter - [@digitallimat](https://www.twitter.com/digitallimat)
-
-## Acknowledgments
