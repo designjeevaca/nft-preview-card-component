@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (min-width: 48rem) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: Outfit, sans-serif;
+  color: hsl(215deg, 51%, 70%);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+  background-color: hsl(217deg, 54%, 11%);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 2rem;
+}
+
+.card {
+  background-color: hsl(216deg, 50%, 16%);
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+@media (min-width: 28rem) {
+  .card {
+    max-width: 30rem;
+  }
+}
+.card__images {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.card__images:hover .card__overlay {
+  cursor: pointer;
+  display: block;
+}
+.card__equilibrium {
+  border-radius: 1.5rem;
+  display: block;
+}
+.card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 247, 0.4);
+  border-radius: 1.5rem;
+  display: none;
+}
+.card__eye {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card__data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.card__title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: hsl(0deg, 0%, 100%);
+}
+.card__description {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.card__price-day {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(215deg, 32%, 27%);
+  padding-bottom: 0.5rem;
+}
+.card__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: hsl(178deg, 100%, 50%);
+}
+.card__day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.card__profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+.card__profile-img {
+  width: 3rem;
+  border: 2px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
+.card__profile-name {
+  font-size: 1.5rem;
+}
+.card__profile-name a {
+  color: hsl(0deg, 0%, 100%);
+}
+.card__profile-name a:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
