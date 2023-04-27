@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/digitallimat)
-- Live Site URL: [Github](https://digitallimat.github.io/nft-preview-card-component/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/digitaltamildev)
+- Live Site URL: [Github](https://digitaltamildev.github.io/nft-preview-card-component/)
 
 ## My process
 
@@ -53,6 +53,6 @@ Image hover Overlay effect.
 
 ## Author
 
-- Website - [Jeeva](https://digitallimat.com)
-- Frontend Mentor - [@digitallimat](https://www.frontendmentor.io/profile/digitallimat)
-- Twitter - [@digitallimat](https://www.twitter.com/digitallimat)
+- Digitaltamil.dev - [digitaltamildev](https://digitaltamil.dev)
+- Frontend Mentor - [@digitaltamildev](https://www.frontendmentor.io/profile/digitaltamildev)
+- Twitter - [@digitaltamildev](https://www.twitter.com/digitaltamildev)
